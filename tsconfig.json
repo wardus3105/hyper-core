@@ -9,29 +9,6 @@
         "noEmit": true,
         "strict": true,
         "target": "esnext",
-        "paths": {
-            "*": ["src/*"],
-            "__tests__": ["__tests__/*"],
-            "core": ["src/core/*"],
-            "features": ["src/features/*"],
-            "configs": ["src/configs/*"],
-            "helpers": ["src/helpers/*"],
-            "libraries": ["src/libraries/*"],
-            "networking": ["src/core/networking/*"],
-            "reduxs": ["src/redux/*"],
-            "res": ["src/res/*"],
-            "routers": ["src/routers/*"],
-            "types": ["src/types/*"]
-        },
-        "experimentalDecorators": true
+        "module":"ES2015"
     },
-    "exclude": [
-        "node_modules",
-        "babel.config.js",
-        "metro.config.js",
-        "src/__tests__/jest.config.js",
-        "src/__tests__",
-        "rn-cli.config.js",
-        "dist"
-    ]
-}
+  }
