@@ -1,3 +1,3 @@
 export default class CoreTest {
-    fetchTest(): Promise<() => Promise<any>>;
+    test1(): Promise<import("axios").AxiosResponse<any>>;
 }
