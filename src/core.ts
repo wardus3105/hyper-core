@@ -1,6 +1,7 @@
-import axios from 'axios';
+import { chatRoomService } from './index'
+const test1 = async() => {
+    const data = await chatRoomService.getChatRooms();
+    console.log(data);
+}
 
-export const test1 = async() => {
-    return await axios.get('http://172.20.50.70:32001/api/chat-rooms')
-} 
-
+test1();
