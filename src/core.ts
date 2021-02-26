@@ -1,7 +1,7 @@
-import fetch from "node-fetch";
+import axios from 'axios';
 export default class CoreTest {
-   public async fetchTest() {
-    return fetch('https://api.github.com/users/github').then(res => res.json);
-   } 
+    async test1(){
+        return await axios.get('http://172.20.50.70:32001/api/chat-rooms')
+    } 
 }
 
