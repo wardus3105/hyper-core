@@ -4,7 +4,7 @@ export class ChatRoomService{
         return await axios.get('http://172.20.50.70:32001/api/chat-rooms')
     }
     printEnviroment() {
-        console.log("Current environment: ", process.env.currentFound);
+        console.log("Current environment: ", process.env.REACT_APP_FOUNDA);
     }
 }
 
