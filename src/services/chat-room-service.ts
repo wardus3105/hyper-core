@@ -30,5 +30,8 @@ export class ChatRoomService{
     printEnviroment8() {
         console.log("Current environment: ", process.env.REACT_APP_FOUNDA);
     }
+    printEnviroment9() {
+        console.log("Current environment: ", process.env.REACT_APP_FOUNDA);
+    }
 }
 
