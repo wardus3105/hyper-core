@@ -7,6 +7,9 @@ var BaseChatRoomService = /** @class */ (function () {
     BaseChatRoomService.prototype.printResult = function () {
         console.log("This is Base");
     };
+    BaseChatRoomService.prototype.checkResult = function () {
+        console.log("Hello");
+    };
     return BaseChatRoomService;
 }());
 exports.BaseChatRoomService = BaseChatRoomService;

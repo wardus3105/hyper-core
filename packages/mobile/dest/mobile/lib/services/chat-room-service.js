@@ -25,6 +25,9 @@ var ChatRoomService = /** @class */ (function (_super) {
     ChatRoomService.prototype.printResult = function () {
         console.log("This is mobile");
     };
+    ChatRoomService.prototype.checkResult = function () {
+        console.log("HHELLO");
+    };
     return ChatRoomService;
 }(chat_room_service_1.BaseChatRoomService));
 exports.ChatRoomService = ChatRoomService;
