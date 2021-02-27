@@ -1,0 +1,27 @@
+{
+  "name": "base",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "hieult <wardus3105@gmail.com>",
+  "homepage": "https://github.com/wardus3105/hyper-core#readme",
+  "license": "ISC",
+  "main": "dest/base.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wardus3105/hyper-core.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/wardus3105/hyper-core/issues"
+  }
+}
