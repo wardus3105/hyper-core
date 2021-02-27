@@ -5,7 +5,7 @@
   "author": "hieult <wardus3105@gmail.com>",
   "homepage": "https://github.com/wardus3105/hyper-core#readme",
   "license": "ISC",
-  "main": "lib/mobile.js",
+  "main": "dest/mobile/mobile.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
