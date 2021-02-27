@@ -6,4 +6,5 @@ export declare class ChatRoomService {
     printEnviroment3(): void;
     printEnviroment4(): void;
     printEnviroment5(): void;
+    printEnviroment6(): void;
 }
