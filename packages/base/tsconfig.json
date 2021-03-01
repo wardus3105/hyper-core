@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "declaration": true,
-    "outDir": "./dest",
+    "outDir": "./dist",
     "strict": true
   },
   "include": ["./lib/**/*"],
